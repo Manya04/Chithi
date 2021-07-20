@@ -1,0 +1,171 @@
+
+.pay .payBodyPartOne{
+    display: block;
+    position: relative;
+    height: 40vh;
+    width: 100vh;
+}
+
+.payBodyPartOne h1{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    top: 100px;
+    left: 500px;
+    bottom: 0px;
+    right: 0px;
+    color: #000;
+    font-size: 3.5rem;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: -23%;
+      width: 100%;
+    }
+  }
+
+  .payBodyPartTwo{
+      display: block;
+      position: relative;
+    height: 40vh;
+    width: 100vh;
+  }
+
+  .subBodyPartTwo{
+      display: block;
+      border: 3px solid #000;
+      box-sizing: border-box;
+      position: absolute;
+      width: 450px;
+      height: 240px;
+      justify-content: center;
+      margin-left: 65%;
+      padding: 10px;
+      align-items: center;
+      
+  }
+
+  .subBodyPartTwo h1{
+    color: #ffff;
+    align-self: center;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding: 20px;
+    font-size: 2.5rem;
+  }
+
+  .subBodyPartTwo input{
+    color: #ffff;
+    align-self: center;
+    margin-left: 120px;
+    padding: 10px;
+      }
+
+      .subBodyPartTwo .error{
+          text-align: center;
+          margin-top: 1%;
+          color: #f50a0a;
+          /* background-color: rgba(0, 0, 0, 0.4);           */
+      }
+
+
+  .subBodyPartTwo button{
+    padding: 8px 15px;
+        background-color: white;
+        color: black;
+        margin-top: 2%;
+        margin-left: 170px;
+        border: 2px solid #000; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+  }
+
+  .subBodyPartTwo button:hover{
+      color: #ffa500;
+  }
+
+  .payTable table {
+    border-collapse: separate;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .payTable  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 1000;
+  }
+
+  .payTable  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: #ffff;
+    font-weight: 700;
+  }
+
+  .inputPrompt{
+      display: block;
+      margin-right: 30%;
+      margin-left: 30%;
+      border: 3px solid #000;
+      box-sizing: border-box;
+        width: 40vw;
+        height: 80vh;
+
+      justify-content: center;
+      padding: 10px;
+      align-items: center;
+  }
+
+  .inputPrompt input{
+      width: 35vw;
+      height: 3vh;
+      padding: 1%;
+      margin-bottom: 5%;
+  }
+
+  .inputPrompt h3{
+      color: #ffff;
+      margin-bottom: 3%;
+      text-align: center;
+  }
+
+.inputPrompt button{
+    padding: 8px 15px;
+        background-color: white;
+        color: black;
+        margin-top: 1%;
+        margin-left: 45%;
+        border: 2px solid #000; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+.inputPrompt button:hover{
+    color: #ffa500;
+}
+
+
+

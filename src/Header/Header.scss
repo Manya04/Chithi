@@ -1,0 +1,112 @@
+.payHeader{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 100;
+
+    .headerLogo{ 
+        a {
+        margin: 10px;
+            padding: 10px;
+        margin-top: 50px;
+        color: #ffff;
+        font-size: 3rem;
+        font-weight: 800;  
+    }
+}
+
+.pages{
+    display: flex;
+    height: 100%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+
+    .navIcon{
+        margin: auto;
+        z-index: 100;
+        height: 50%;
+        width: 50%;
+        padding: 10px;
+        color: #ffff;
+    }
+}
+
+
+// .headerMenu {
+//     color: #ffff;
+//     padding: 50px;
+//     font-size:30px;
+//     cursor:pointer;    
+//     .navContent{
+//         display: none;
+//     }
+//     }
+
+    .navClose{
+        height: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        .navContent{
+            display: none;
+        }
+    }
+    
+    .navClose.navOpen{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: all ease-out 0.3s;  
+        .navContent {
+            position: relative;
+            top: 15%;
+            width: 100%;
+            text-align: center;
+            margin-top: 10%;
+            position: relative;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            margin-top: 90px;
+            .routePage{
+                text-decoration: none;
+                p {
+                    padding: 8px;
+                    text-decoration: none;
+                    font-size: 36px;
+                    color: #868383;
+                    transition: 0.3s;
+                    text-decoration: none;
+                }
+                p:hover{
+                    color: #ffff;
+                    cursor: pointer;
+                }
+
+            }
+            
+    
+     }
+}
+
+}
+    
+    
+
+

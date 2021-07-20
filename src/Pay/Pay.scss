@@ -1,0 +1,175 @@
+.pay {
+  // height: 100vh;
+  // width: 100vw;
+    .payBodyPartOne{
+        position: relative;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        h1{
+            position: absolute;
+    margin: auto;
+    margin-top: 10%;
+    top: 20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #000;
+    font-size: 3.5rem;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+        }
+        @keyframes slidein {
+            from {
+              margin-left: 100%;
+              width: 300%;
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+    }
+
+      .passwordForm{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #ffa64d;
+        margin: auto;
+        margin-top: 20%;
+        width: 50vw;
+        height: 35vh;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+        
+        h1{
+            color: #ffff;
+            align-self: center;
+            margin-left: 30px;
+            padding-left: 30px;
+            padding: 20px;
+            font-size: 2.5rem;
+          }
+
+          input{
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 0%;
+              }
+
+              input:invalid{
+                border: 1px solid red;
+              }
+
+              .error{
+                text-align: center;
+                margin:auto;
+                margin-top: 1%;
+                color: #f50a0a;
+                /* background-color: rgba(0, 0, 0, 0.4);           */
+            }
+
+            button{
+                padding: 8px 15px;
+                    background-color: transparent;
+                    color: #fff;
+                    margin: auto;
+                    margin-top: 1%;
+                    width: 40%;
+                    border: 2px solid #ffa64d; 
+                    text-align: center;
+                    font-size: 16px;
+                    border-radius: 10px;
+                    transition: 1s;
+              }
+
+              button:hover{
+                cursor: pointer;
+                background-color: #ffa64d;
+                color: #000;
+            }
+    }
+    
+
+    .runsForm{
+      display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20%;
+        border: 2px solid #ffa64d;
+          width: 40vw;
+          height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+        
+
+        input{
+          margin: auto;
+          margin-bottom: 5%;
+            width: 35vw;
+            height: 3vh;
+            padding: 1%;    
+        }
+
+        h3{
+            color: #ffff;
+            margin-bottom: 3%;
+            text-align: center;
+        }
+
+        button{
+            padding: 8px 15px;
+                margin-left: 45%;
+                padding: 8px 15px;
+                    background-color: transparent;
+                    color: #fff;
+                    margin: auto;
+                    margin-top: 1%;
+                    width: 40%;
+                    border: 2px solid #ffa64d; 
+                    text-align: center;
+                    font-size: 16px;
+                    border-radius: 10px;
+                    transition: 1s;
+        }
+
+        button:hover{
+          cursor: pointer;
+          background-color: #ffa64d;
+          color: #000;
+        }
+    }
+
+    .payTable{
+        table {
+            border-collapse: separate;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            background-color: rgba(0, 0, 0, 0.2);
+          }
+
+          th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            font-size: 2rem;
+            color: #ffff;
+            font-weight: 1000;
+          }
+
+           td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            font-size: 1.5rem;
+            color: #ffff;
+            font-weight: 700;
+          }
+    } 
+}
+
